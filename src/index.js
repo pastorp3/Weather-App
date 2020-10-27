@@ -12,4 +12,4 @@ searchbttn.addEventListener('click', search => {
   form.reset();
 });
 
-home();
+home('No');

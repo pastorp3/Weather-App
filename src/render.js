@@ -70,4 +70,6 @@ const render = (img, data) => {
   });
 };
 
-export default render;
+export {
+  render, clear,
+};

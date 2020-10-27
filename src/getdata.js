@@ -1,6 +1,10 @@
 /* eslint-disable  prefer-template, prefer-promise-reject-errors, no-alert */
 
-import render from './render';
+import {
+  render, clear,
+} from './render';
+
+import home from './home';
 
 async function getImage(input, info) {
   const url = 'https://api.unsplash.com/photos/random?orientation=landscape&count=1&client_id=7XimdnnMOSmoeVFofk7rEM4_ApTXYE83u8ZAAlOfPZU&query=' + input;
@@ -27,7 +31,9 @@ async function getData(input) {
     const request = await fetchData(input);
     getImage(request.weather[0].main, request);
   } catch (error) {
-    alert(error);
+    const container = document.getElementById('container');
+    clear(container);
+    home('Yes');
   }
 }
 
