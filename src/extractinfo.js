@@ -18,13 +18,13 @@ function calTempCelcius(input) {
   let temp = Math.round(input - 273.15);
   temp += 'ºC';
   return temp;
-};
+}
 
 function calTempFah(input) {
   let temp = Math.round((input - 273.15) * 9 / 5 + 32);
   temp += 'ºF';
   return temp;
-};
+}
 
 const temp = (input) => {
   const option = document.getElementById('select-temperature').value;
@@ -43,7 +43,7 @@ const hum = (input) => {
 };
 
 const status = (input) => {
-  let condition = input.weather[0].description;
+  const condition = input.weather[0].description;
   return condition;
 };
 
