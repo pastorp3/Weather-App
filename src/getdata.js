@@ -1,4 +1,4 @@
-/* eslint-disable  prefer-template, prefer-promise-reject-errors, no-alert*/
+/* eslint-disable  prefer-template, prefer-promise-reject-errors, no-alert */
 
 import render from './render';
 

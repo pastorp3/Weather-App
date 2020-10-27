@@ -1,7 +1,7 @@
 /* eslint-disable  no-unused-vars */
 
 import {
- city, cord, temp, hum, status 
+  city, cord, temp, hum, status,
 } from './extractinfo';
 
 function clear(container) {
