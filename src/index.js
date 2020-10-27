@@ -1,5 +1,7 @@
+/* eslint-disable  no-unused-vars */
+
 import getData from './getdata';
-import home from './home'; 
+import home from './home';
 
 const searchbttn = document.getElementById('searchbttn');
 searchbttn.addEventListener('click', search => {

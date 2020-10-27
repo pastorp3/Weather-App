@@ -1,4 +1,8 @@
-import { city, cord, temp, hum, status } from './extractinfo';
+/* eslint-disable  no-unused-vars */
+
+import {
+ city, cord, temp, hum, status 
+} from './extractinfo';
 
 function clear(container) {
   while (container.firstChild) {
@@ -34,7 +38,7 @@ const render = (img, data) => {
   const Max = document.createElement('span');
   const Min = document.createElement('span');
   Card.appendChild(dataContainer);
-  dataContainer.appendChild(titleCity)
+  dataContainer.appendChild(titleCity);
   dataContainer.appendChild(ubication);
   dataContainer.appendChild(tempNow);
   dataContainer.appendChild(feelsTemp);
@@ -50,7 +54,7 @@ const render = (img, data) => {
   feelsTemp.setAttribute('class', 'feels_like normal-margin');
   Humidity.setAttribute('class', 'feels_like normal-margin');
   description.setAttribute('class', 'feels_like normal-margin');
-  titleCity.textContent = `${title}`
+  titleCity.textContent = `${title}`;
   ubication.textContent = `${location}`;
   tempNow.textContent = `${actualTemp}`;
   feelsTemp.textContent = `Feels like: ${feelsLike}`;
@@ -64,5 +68,6 @@ const render = (img, data) => {
   changebttn.addEventListener('click', change => {
     render(img, data);
   });
-}
+};
+
 export default render;

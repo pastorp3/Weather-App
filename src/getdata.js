@@ -1,3 +1,5 @@
+/* eslint-disable  prefer-template, prefer-promise-reject-errors, no-alert*/
+
 import render from './render';
 
 async function getImage(input, info) {
@@ -13,10 +15,8 @@ async function fetchData(input) {
   const data = await response.json();
   return new Promise((resolve, reject) => {
     if (data.cod === '404') {
-      console.log('Error');
       reject('No valid city');
     } else {
-      console.log('Complete');
       resolve(data);
     }
   });
