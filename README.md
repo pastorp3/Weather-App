@@ -13,7 +13,7 @@ All the functionality and assets presented in the page are generated using JavaS
 - Javascript,
 - DOM,
 - Webpack
--API's
+- API's
 
 ## Live Demo
 
