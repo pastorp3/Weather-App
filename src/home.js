@@ -5,10 +5,10 @@ const home = (condition) => {
   const div = document.createElement('div');
   div.setAttribute('class', 'align-loading');
   container.appendChild(div);
-  if(condition === 'No') {
-  	div.innerHTML = '<span>Waiting for input....</span>';
+  if (condition === 'No') {
+    div.innerHTML = '<span>Waiting for input....</span>';
   } else {
-  	div.innerHTML = '<span>No Valid City Try Again...</span>';
+    div.innerHTML = '<span>No Valid City Try Again...</span>';
   }
 };
 
