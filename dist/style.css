@@ -80,3 +80,10 @@ input {
 .margin-right {
 	margin-right: 10%; 
 }
+
+.align-loading {
+	text-align: center;
+	width: 100%;
+	font-size: 50px; 
+	padding-top: 200px;
+}
