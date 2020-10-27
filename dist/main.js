@@ -1,1 +1,1 @@
-console.log("This is working");
+(()=>{"use strict";document.getElementById("searchbttn").addEventListener("click",(e=>{const t=document.getElementsByTagName("form")[0];(async function(e){const t="http://api.openweathermap.org/data/2.5/weather?q="+e+",&APPID=be7a948e30f210ef85214d3ba4b94273",a=await fetch(t),n=await a.json();console.log(n)})(document.getElementById("search").value).catch(alert),t.reset()}))})();

@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	background-color: #add8e6;
+	font-size: 25px;
+	height: 50px;
+}
+
+.mr-l {
+	margin-left: 40px;
+}
+
+.mr-r {
+	margin-right: 40px;
+}
+
+.pd-t {
+	padding-top: 10px;
+}
+
+input {
+	height: 25px;
+}
+
