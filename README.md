@@ -17,7 +17,7 @@ All the functionality and assets presented in the page are generated using JavaS
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/pastorp3/Weather-App/3e0d4a2e9e653a45385ecc60cd54a2c30ca8e73b/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/pastorp3/Weather-App/f56ccb2ce0f170b8f7ae78bfca39b2847a9c1840/dist/index.html)
 
 
 ### Loacl Copy
